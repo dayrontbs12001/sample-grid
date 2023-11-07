@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  /* Style your header here */
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 1.2em;
+}
+
+.card p {
+  font-size: 0.9em;
+}
+
+.discount-code {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: small;
+}
+
+/* Add more styling as needed */
